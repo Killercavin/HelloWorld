@@ -41,4 +41,31 @@
         android:layout_gravity="center"
         android:layout_marginTop="16dp" />
 
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:hint="@string/name"
+        android:textColorHint="@android:color/holo_blue_light" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:hint="@string/grade"
+        android:textColorHint="@android:color/holo_blue_bright" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button4"
+        android:text="@string/add_name"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:onClick="onClickAddName"/>
+
 </LinearLayout>

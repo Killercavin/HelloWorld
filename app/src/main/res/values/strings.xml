@@ -5,4 +5,7 @@
     <string name="stop_services">Stop Service</string>
     <string name="label">Hello World</string>
     <string name="broadcast_text">Broadcast Intent</string>
+    <string name="name">Name</string>
+    <string name="grade">Grade</string>
+    <string name="add_name">Add Name</string>
 </resources>

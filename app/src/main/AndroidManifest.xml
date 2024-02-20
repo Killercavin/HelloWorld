@@ -38,6 +38,10 @@
 
         </receiver>
 
-    </application>
+        <provider android:name="StudentsProvider"
+            android:authorities="com.example.MyApplication.StudentsProvider"
+            android:exported="false" />
+
+</application>
 
 </manifest>
